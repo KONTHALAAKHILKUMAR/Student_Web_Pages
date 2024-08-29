@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5 bgf">
+        <div class="d-flex justify-content-between align-items-center block">
+            <a href="#" class="btn btn-link text-black">← Go Back</a>
+            <div class="d-flex align-items-center dropdownblock">
+                <p class="mb-0 mr-2">Year</p>
+                <select  id="yearSelect"class="form-select custom-select dropdown-toggle" aria-label="Default select example">
+                    <option selected>All</option>
+                    <option  value="1">Year 1</option>
+                    <option value="2">Year 2</option>
+                    <option value="3">Year 3</option>
+                    <option value="4">Year 4</option>
+                    <option value="5">All years</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row seccard">
+            <div class="col-md-3 profilecard">
+                <div class="card">
+                    <img src="https://wallpapers.com/images/hd/professional-profile-pictures-1080-x-1080-460wjhrkbwdcp1ig.jpg" class="card-img-top profile  profimg mx-auto d-block" alt="Profile Picture">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Eleanor Pena</h5>
+                        <span class="card-text"><strong>Program opted:</strong> Java Full Stack</span>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
+                    
+                        <!-- <h6><center><strong>About</strong></center></h6> -->
+                         <span class="card-title">About</span>
+                   
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                       
+                               <div class="contact-info">
+                                        <span class="card-title">Contact</span>
+                                        <div class="d-flex align-items-center mb-2 gap">
+                                                     <img src="Icons/mail icon.png" class="mail">
+                                                        <p class="mb-0">Eleanorpena@gmail.com</p>
+                                                             </div>
+                                                             <div class="d-flex align-items-center mb-2 gap">
+                                                            <img src ="Icons/contact icon.png" class="contact">
+                                            <p class="mb-0">9652348956</p>
+                                                         </div>
+                                                         <div class="d-flex align-items-center mb-2 gap">
+                                                            <img src ="Icons/linkedin icon.png" class="linkedin">
+                                            <p class="mb-0">htpps//www.linkedin.com</p>
+                                                         </div>
+                                                        </div>        
+                                                        </div>
+                </div>
+            </div>
+
+            <div class="col-md-9 buttonscard">
+                <div class="d-flex justify-content-between align-items-center buttondiv">
+                    <button type="button" class="btn btn-outline-primary" id="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                        <!-- <i class="fa-duotone fa-solid fa-triangle fa-rotate-90 icon-style" ></i> -->
+                         <!-- <img src="Icons/side bar  (1).png" class="side bar"> -->
+                    </button>
+                
+                    <!-- <div class="btn-container"> -->
+                        <div class="btn-group" role="group" id="button-group">
+                            <button type="button" class="btn sem-btn">Sem - 1 (2023)</button>
+                            <button type="button" class="btn sem-btn">Sem - 2 (2023)</button>
+                            <button type="button" class="btn sem-btn">Sem - 3 (2024)</button>
+                            <button type="button" class="btn sem-btn">Sem - 4 (2024)</button>
+                            <button type="button" class="btn sem-btn">Sem - 5 (2025)</button>
+                            <button type="button" class="btn sem-btn">Sem - 6 (2025)</button>
+                            <button type="button" class="btn sem-btn">Sem - 7 (2026)</button>
+                            <button type="button" class="btn sem-btn">Sem - 8 (2026)</button>
+                        </div>
+                    <!-- </div> -->
+                    <button type="button" class="btn btn-outline-primary" id="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+               
+
+                <div class="mt-3 bargraphcard" style="padding: 10px; border: 1px solid #c4c4c4; background-color: #fff !important;">
+                    <div class="row  ">
+                       
+                        <!-- <div class="col-12"> -->
+                            <div class="container mt-5 ">
+                                <div class="row sembarnote">
+                                    <!-- Percentage Labels with Vertical Text -->
+                                    <div class="col-auto percentage-container">
+                                        <div class="percentage-word">Percentage</div>
+                                        <div class="percentage-values d-flex flex-column
+                        justify-content-between">
+                                            <span>100</span>
+                                            <span>80</span>
+                                            <span>60</span>
+                                            <span>40</span>
+                                            <span>20</span>
+                                            <span>0</span>
+                                        </div>
+                                    </div>
+                        
+                                    <!-- Main Content with Sem Divs and Bar Graphs -->
+                                    <div class="col d-flex align-items-end">
+                                        <!-- Sem 1 Container -->
+                                        <div class="sem-container">
+                                            <div class="sem-label text-center semdiv">Sem - 1</div>
+                                            <div class="bar-container sem-1-bar-container">
+                                                <div class="bar-graph sem-1-bar">
+                                                    <div class="bar" style="height: 83%;">
+                                                        <span class="percentage-value">83%</span>
+                                                    </div>
+                                                </div>
+                        
+                                            </div>
+                                        </div>
+                        
+                        
+                                        <!-- Sem 2 Container -->
+                                        <div class="sem-container">
+                                            <div class="sem-label text-center semdiv">Sem - 2</div>
+                                            <div class="bar-container sem-2-bar-container">
+                                                <div class="bar-graph sem-2-bar">
+                                                    <div class="bar" style="height: 92%;">
+                                                        <span class="percentage-value">92%</span>
+                                                    </div>
+                                                </div>
+                        
+                                            </div>
+                                        </div>
+                        
+                                    </div>
+                                    <div class="labels">
+                                        <div class="label-group mg">
+                                            <span class="badge button-label1">HTML</span>
+                                            <span class="badge button-label1">JAVA</span>
+                                            <span class="badge button-label1">SQL</span>
+                                        </div>
+                                        <div class="label-group">
+                                            <span class="badge button-label">HTML</span>
+                                            <span class="badge button-label">JAVA</span>
+                                            <span class="badge button-label">SQL</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <p class="progress-note">
+                                            <strong>Note:</strong> <span>The progress graph reflects Student’s academic journey, highlighting the percentage of 
+                                                marks earned each semester. Use this visualization to track their improvement over time. *Progress isn’t just about the numbers-it’s about consistent effort and growth.</span>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                               
+                            </div>
+                            
+                            
+                        <!-- </div> -->
+                    </div>
+                </div>
+<!-- GRAPH EXAMPLE -->
+                <!-- <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="cardc p-3">
+                                <h6 class="text-center">Sem - 1</h6>
+                                <canvas id="graph1"></canvas>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="cardc p-3">
+                                <h6 class="text-center">Sem - 2</h6>
+                                <canvas id="graph2"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+<!--Grapgh2 tried-->
+                <!-- <div class="container mt-4">
+                    <div class="row">
+                        <div class="col-md-12 d-flex">
+                            - Shared Y-axis -->
+                            <!-- <div class="y-axis-labels text-right pr-2">
+                                <div>100</div>
+                                <div>80</div>
+                                <div>60</div>
+                                <div>40</div>
+                                <div>20</div>
+                                <div>0</div>
+                            </div> -->
+                            <!-- Graphs Container -->
+                            <!-- <div class="col-11 d-flex justify-content-between border-left pl-0">
+                                Graph  -->
+                                <!-- <div class="graph-container border-right">
+                                    <canvas id="graph1"></canvas>
+                                    <div class="tech-labels d-flex justify-content-between mt-3">
+                                        <span class="label border">HTML</span>
+                                        <span class="label border">JAVA</span>
+                                        <span class="label border">SQL</span>
+                                    </div>
+                                </div>
+                                Graph 2 -->
+                                <!-- <div class="graph-container">
+                                    <canvas id="graph2"></canvas>
+                                    <div class="tech-labels d-flex justify-content-between mt-3">
+                                        <span class="label border">HTML</span>
+                                        <span class="label border">JAVA</span>
+                                        <span class="label border">SQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+                <!--3rd grpah-->
+                <!-- <div class="container">
+  <div class="row">
+     Combined graph with a single Y-axis -->
+    <!-- <div class="col-2">
+      <div class="y-axis"> -->
+        <!-- Labels for Y-axis (0, 20, 40, ... 100) -->
+        <!-- <div class="y-label">100</div>
+        <div class="y-label">80</div>
+        <div class="y-label">60</div>
+        <div class="y-label">40</div>
+        <div class="y-label">20</div>
+        <div class="y-label">0</div>
+      </div>
+    </div>
+    <div class="col-10">
+      <div class="table">
+        <div class="table-row">  -->
+          <!-- Graph Column 1 -->
+          <!-- <div class="graph-column">
+            <div class="bar-container">
+              <div class="bar html-bar" style="height: 83%;"></div>
+            </div>
+            <div class="table-label">HTML JAVA SQL</div>
+          </div> -->
+          <!-- Graph Column 2 -->
+          <!-- <div class="graph-column">
+            <div class="bar-container">
+              <div class="bar java-bar" style="height: 92%;"></div>
+            </div>
+            <div class="table-label">HTML JAVA SQL</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- 4th graph -->
+<!-- <div class="container mt-4">
+    <div class="row"> -->
+        <!-- Single Y-Axis for both graphs -->
+        <!-- <div class="col-1 d-flex flex-column align-items-center">
+            <div class="y-axis-label">100</div>
+            <div class="y-axis-label">75</div>
+            <div class="y-axis-label">50</div>
+            <div class="y-axis-label">25</div>
+            <div class="y-axis-label">0</div>
+        </div> -->
+
+        <!-- Graph Container -->
+        <!-- <div class="col-11">
+            <div class="row"> -->
+                <!-- Graph Column 1 -->
+                <!-- <div class="col-6 d-flex flex-column align-items-center graph-column">
+                    <div class="bar" style="height: 83%; background: #A4B561;"></div>
+                    <div class="table-label">
+                        <span class="html">HTML</span>
+                        <span class="java">JAVA</span>
+                        <span class="sql">SQL</span>
+                    </div>
+                </div> -->
+                <!-- Graph Column 2 -->
+                <!-- <div class="col-6 d-flex flex-column align-items-center graph-column">
+                    <div class="bar" style="height: 92%; background: #00A2B3;"></div>
+                    <div class="table-label">
+                        <span class="html">HTML</span>
+                        <span class="java">JAVA</span>
+                        <span class="sql">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<!-- <div class="container mt-4">
+    <div class="row graph"> -->
+        <!-- Single Y-Axis for both graphs -->
+        <!-- <div class="col-1 d-flex flex-column align-items-center">
+            <div class="y-axis-label">100</div>
+            <div class="y-axis-label">75</div>
+            <div class="y-axis-label">50</div>
+            <div class="y-axis-label">25</div>
+            <div class="y-axis-label">0</div>
+        </div> -->
+
+        <!-- Graph Container -->
+        <!-- <div class="col-11">
+            <div class="row graph"> -->
+                <!-- Graph Header Row -->
+                <!-- <div class="col-6 text-center graph-header">Sem 1</div>
+                <div class="col-6 text-center graph-header">Sem 2</div>
+            </div>
+            <div class="row graph"> -->
+                <!-- Graph Column 1 -->
+                <!-- <div class="col-6 d-flex flex-column align-items-center graph-column">
+                    <div class="bar" style="height: 83%; background: #A4B561;">
+                        <div class="percentage-label">83%</div>
+                    </div>
+                    <div class="table-label">
+                        <span class="html">HTML</span>
+                        <span class="java">JAVA</span>
+                        <span class="sql">SQL</span>
+                    </div>
+                </div> -->
+                <!-- Graph Column 2 -->
+                <!-- <div class="col-6 d-flex flex-column align-items-center graph-column">
+                    <div class="bar" style="height: 92%; background: #00A2B3;">
+                        <div class="percentage-label">92%</div>
+                    </div>
+                    <div class="table-label">
+                        <span class="html">HTML</span>
+                        <span class="java">JAVA</span>
+                        <span class="sql">SQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<!-- <div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10">
+            <div class="graph-container">
+                <canvas id="myChart"></canvas> -->
+            <!-- </div>
+            <div id="color-buttons" class="d-flex justify-content-around mt-4">
+                <button class="color-button color-group-1">HTML</button>
+                <button class="color-button color-group-2">Java</button>
+                <button class="color-button color-group-3">SQL</button>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<!--  -->
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+                
+                
+                <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Ensure the order of scripts is correct -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+

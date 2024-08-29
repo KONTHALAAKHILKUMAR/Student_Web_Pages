@@ -1,0 +1,922 @@
+ /* General Styling */
+ body {
+    background-color: #e6e6e6;
+}
+
+
+/* Header Styling */
+.bg-lightblue {
+    background-color: #1D1F71;
+}
+
+.icon-bell,
+.icon-profile {
+    font-size: 1.5rem;
+    color: #31b25e;
+    margin-left: 15px;
+}
+
+/* Navbar Styling */
+.bg-darkblue {
+    background-color: #001f3f;
+} 
+
+/* .seccard{
+    width: 1195px;
+height: 537px;
+top: 147px;
+left: 41px;
+gap: 0px;
+opacity: 0px;
+
+} */
+
+/* .buttonscard{
+    width: 935px;
+height: 79px;
+top: 148px;
+left: 301px;
+gap: 0px;
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+
+} */
+
+
+/* Card Styling */
+.card {
+    margin-bottom: 10px;
+    height: 560px;
+    width: 247px;
+   
+    
+}
+
+.card-title {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.card-text h6 {
+    font-size: 14px;
+}
+
+.card-text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Button Group Styling */
+.btn-outline-primary {
+    width: 35px;
+    height: 79px;
+    border-radius: 6px 0px 0px 0px;
+    background: #C4C4C4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.btn-outline-primary i {
+    font-size: 10px; /* Adjust the size of the icon to fit within the button */
+    color: #000; /* You can change this color to whatever fits your design */
+}
+
+/* Image inside the button */
+/* .btn-outline-primary img.side-bar {
+    width: 13px;
+    height: 15px;
+    /* top: 181px;
+    left: 309px; */
+    /* gap: 0px;
+    opacity: 0px; */
+     /* Ensure the image doesn't exceed a symbolic size within the button */
+ 
+
+/* .btn-outline-primary:hover {
+    background-color: #001f3f;
+    color: white;
+   
+} */
+
+.dropdown-menu a:hover {
+    background-color: #001f3f;
+    color: white;
+}
+
+/* Progress Chart Placeholder */
+.progress-chart {
+    height: 300px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.progress-note{
+    margin-left:15px ;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 30px;
+}
+.profilecard{
+    width: 249px;
+height: 540px;
+top: 0px;
+left: 20px;
+gap: 0;
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+
+}
+.profile {
+    border-radius: 100%;
+    width: 100px;
+    /* margin: 20px; */
+    margin-top:30px;
+}
+.proimg{
+    top:20px;
+}
+
+.gap{
+    gap:5px;
+}
+.linkedin{
+    width: 20px;
+height: 20px;
+padding: 1.58px;
+gap: 5px;
+right:5px;
+opacity: 0px;
+
+}
+
+
+.contact{
+    width: 20px;
+height: 20px;
+padding: 1.58px;
+gap: 5px;
+opacity: 0px;
+
+}
+
+.mail{
+    width: 18px;
+height: 18px;
+padding: 1.58px;
+gap: 5px;
+opacity: 0px;
+
+}
+/* .btn-container{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+
+.buttondiv{
+    width:935px;
+    height:70px;
+}
+.buttonscard{
+    width:935px;
+    height:80px;
+}
+.sem-btn {
+    /* font-size: 11px; */
+    padding: 20px 25px;
+    /* font-weight: bold; */
+    color: black;
+    background-color: white;
+    margin: 0 15px; /* Add margin to the left and right */
+    border: none;
+    border-radius: 10px !important; /* Apply border radius */
+    /* height: 70px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); Black box shadow */
+    transition: box-shadow 0.3s ease-in-out; /* Smooth transition for hover effect */
+    font-family: Poppins;
+font-size: 12px;
+font-weight: 600;
+line-height: 16px;
+letter-spacing: 0.008036363869905472px;
+text-align: center;
+width:155px;
+height:80px;
+
+}
+
+
+.block{
+    width: 1228px;
+height:34px;
+top: 100px;
+left: 41px;
+gap: 0px;
+
+opacity: 0px;
+
+}
+/* .dropdownblock{
+    margin-right:10px;
+} */
+
+/*  */
+
+
+.btn-group .btn-outline-primary {
+    color: black;
+    background-color: white;
+    margin: 0 15px; /* Add margin to the left and right */
+    border: none; /* Remove the border */
+}
+
+.btn-group .btn-outline-primary i {
+    color: black;
+    border: none; 
+}
+
+
+/* Dropdown Styling
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.custom-dropdown select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 30px; /* Make room for the arrow */
+    /* background: url('data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDQ4IDQ4Ij48cGF0aCBkPSJNNDIuNTM4IDkuMjAzbC0uNzkxLS43OTFDNDEuNDYzIDguMjIzIDQwLjIyIDggMzguOTY5IDhIMTQuMDE5Yy0xLjI1MSAwLTIuNDk0LjIyMy0zLjI3OSAxLjQxMi0uNzgyIDEuMTg2LTEuMDA0IDIuNjg4LS40NzMgMy45MThsLjgwNS43OTEgLjcwOS43OTRMMjQgMzIuMzE3bDE0LjIxMS0xNC4zOTcgMTIuMjk0LTEyLjIxN0w0Mi41MzggOS4yMDN6Ii8+PC9zdmc+') no-repeat right 10px center;
+    background-size: 12px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 34px;
+    line-height: 1.5;
+    font-size: 14px;
+} */ 
+
+
+/* Text Styling */
+.text-black {
+    color: black !important;
+    font-weight: bold;
+}
+
+/*  */
+/* 
+.charttab{
+    width: 862px;
+height: 380px;
+/* top: 270px;
+left: 331px; */
+/* gap: 0px;
+opacity: 0px;
+
+} */
+
+.bargraphcard{
+    width:938px;
+    height:480px;
+    
+}
+
+.sembarnote{
+    margin-left: 80px;
+    width: 862px;
+
+
+left: 331px;
+gap: 0px;
+opacity: 0px;
+
+}
+/* Styling for the Percentage Container */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.percentage-container {
+    width: 59px;
+    height: 210px;
+    gap: 0;
+    border-right: 1px solid #B5B5B5 ;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top:45px;
+    margin-left:-42px;
+    
+
+    
+    
+}
+
+/* .ok{
+    gap:-15px;
+} */
+
+/* Vertical 'Percentage' Text */
+.percentage-word {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    /* font-size: 14px; */
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: -20px;
+
+    font-family: Helvetica;
+font-size: 14.26px;
+font-weight: 400;
+line-height: 54.06px;
+text-align: left;
+
+}
+
+/* Percentage Values */
+.percentage-values {
+    height: 100%;
+    justify-content: space-between;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    
+}
+
+/* Main Content Wrapper */
+.sem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+
+.icon-style{
+    color: rgb(7, 7, 7);
+}
+
+/* Sem Labels */
+.sem-label {
+    width: 287px;
+    height: 47px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 47px;
+    background-color: #f8f9fa;
+}
+
+.semdiv{
+    border: 1px solid #B5B5B5;
+    font-family: Poppins;
+}
+
+/* Bar Container Styling */
+.bar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 287px;
+    height: 210px;
+    position: relative;
+    /* border: 1px solid #000; */
+    border: 1px solid #B5B5B5;;
+
+
+
+
+
+}
+
+/* Bar Graph Styling */
+.bar-graph {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.bar {
+
+    background-color: #A4B561;
+    border-radius: 6px;
+    position: absolute;
+    margin-left:100px;
+    bottom: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    width: 80px;
+height: 115px;
+gap: 0px;
+border-radius: 6.11px 6.11px 0px 0px;
+opacity: 0px;
+
+
+}
+
+.sem-2-bar .bar {
+    background-color: #00A2B3;
+}
+
+/* Percentage Value on Bars */
+.percentage-value {
+    position: absolute;
+    bottom: 100%;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* Label styling */
+.labels {
+    display: flex;
+    justify-content:start;
+    margin-top: 10px;
+    margin-left:10px;
+    gap:38px;
+
+
+}
+
+.label-group {
+    display: flex;
+    justify-content: start;
+    width:195px;
+    margin-left: 50px;
+    height: 26.81px;
+    gap: 10px;
+    margin-top:-25px;
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 600;
+line-height: 27.08px;
+letter-spacing: 0.6769581437110901px;
+text-align: justify;
+
+    
+    
+    
+
+}
+
+
+.badge{
+    position:relative;
+    
+    
+}
+
+
+.button-label1 {
+    background-color: #A4B561;
+    background-size: auto;
+    padding:10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+.button-label{
+      background-color: #00A2B3;
+      background-size: auto;
+    padding:10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
+/* Add additional styles for more color groups as needed */
+
+
+/* GRAPGH PROPERTIES
+.container {
+    margin-top: 20px;
+}
+
+.cardc {
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    max-height: 300px;
+} */
+
+
+
+/* grpagh2 tried*/
+
+/* .container {
+    margin-top: 20px;
+}
+
+.y-axis-labels {
+    font-size: 14px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+.graph-container {
+    flex: 1;
+    padding: 0 15px;
+}
+
+.graph-container canvas {
+    max-height: 250px;
+}
+
+.tech-labels .label {
+    padding: 5px 10px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    text-align: center;
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.tech-labels .label:nth-child(1) {
+    background-color: #5a9e4b;
+    color: #fff;
+}
+
+.tech-labels .label:nth-child(2) {
+    background-color: #c8c600;
+    color: #fff;
+}
+
+.tech-labels .label:nth-child(3) {
+    background-color: #0091ea;
+    color: #fff;
+}
+
+.graph-container {
+    position: relative;
+}
+
+.graph-container .border-right {
+    border-right: 1px solid #ddd;
+}
+
+.graph-container .border-left {
+    border-left: 1px solid #ddd;
+} */
+
+
+/*3rd grpahh
+/*
+.container {
+    margin: 20px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .y-axis {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px;
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .y-label {
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .table {
+    display: flex;
+  }
+  
+  .table-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .graph-column {
+    width: 100px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .bar-container {
+    width: 80px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 10px;
+  }
+  
+  .bar {
+    width: 80px;
+    border-radius: 6.11px 6.11px 0px 0px;
+  }
+  
+  .html-bar {
+    background: #A4B561;
+    height: 83%; /* Adjust percentage based on combined value */
+  /*}
+  
+  .java-bar {
+    background: #00A2B3;
+    height: 92%; /* Adjust percentage based on combined value */
+  /* }
+  
+  .table-label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .table-label span {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .table-label .html {
+    background-color: #A4B561;
+  }
+  
+  .table-label .java {
+    background-color: #00A2B3;
+  }
+  
+  /* Additional spacing adjustments */
+   
+
+/* 
+  4th grpagh */
+  /* .container {
+    max-width: 900px;
+}
+
+.row {
+    margin-top: 20px;
+    position: relative;
+}
+
+.y-axis-label {
+    flex: 1;
+    width: 30px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.graph-column {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 300px;
+    position: relative;
+}
+
+.graph-column .bar {
+    width: 80px;
+    border-radius: 6px 6px 0 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.table-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table-label span {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.html {
+    background-color: #A4B561;
+    color: #fff;
+}
+
+.java {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.sql {
+    background-color: #00A2B3;
+    color: #fff;
+} */
+
+/* 5th graph */
+/* 
+.container {
+    max-width: 900px;
+}
+
+ .graph{
+    margin-top: 20px;
+    position: relative;
+}
+
+.y-axis-label {
+    flex: 1;
+    width: 30px;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.graph-column {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    height: 300px;
+    position: relative;
+}
+
+.graph-column .bar {
+    width: 80px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.percentage-label {
+    position: absolute;
+    bottom: 0;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+
+.table-label {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.table-label span {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.html {
+    background-color: #A4B561;
+    color: #fff;
+}
+
+.java {
+    background-color: #FFA500;
+    color: #fff;
+}
+
+.sql {
+    background-color: #00A2B3;
+    color: #fff;
+}
+
+.graph-header {
+    border-bottom: 1px solid #000;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .y-axis-label {
+        font-size: 12px;
+    }
+
+    .graph-column {
+        height: 200px;
+    }
+
+    .graph-column .bar {
+        width: 60px;
+    }
+
+    .table-label {
+        flex-direction: column;
+    }
+
+    .table-label span {
+        font-size: 12px;
+        padding: 3px 6px;
+    }
+} */
+
+
+
+
+
+
+/* Ensure the table has borders on all sides */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+/* Custom styles for the graph container */
+.chart-container {
+    position: relative;
+    height: 400px;
+    margin-bottom: 50px;
+}
+/* Custom styles for labels below the graph */
+.label-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.label-box {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.label-html {
+    background-color: #a3b745;
+}
+.label-java {
+    background-color: #007bff;
+}
+.label-sql {
+    background-color: #0dcaf0;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .sem-btn {
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+
+    .percentage-container {
+        width: 50px;
+        height: 180px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 10px 5px;
+    }
+
+    .icons i {
+        font-size: 1.2rem;
+    }
+}
+
+
+
